@@ -69,6 +69,7 @@ To optimize readability, the core analytical charts are grouped below. High-DPI 
 - **Chasing Provides a Detectable Edge:** Teams batting second hold a moderate overall advantage, though this edge fluctuates significantly across seasons due to evolving pitch conditions and tactical shifts.
 
 ## ⚠️ Methodological Note
+
 The findings presented in this analysis represent *statistical associations* and historical trends rather than definitive causal relationships. Conclusions drawn are descriptive and exploratory. Determining true causality (e.g., isolating the exact impact of winning the toss independent of team strength) would require advanced predictive modeling and causal inference techniques.
 
 ---
