@@ -9,8 +9,9 @@
 ---
 
 ## 📈 Executive Snapshot
+
 | Metric | Insight |
-|--------|---------|
+| :--- | :--- |
 | **Matches Analyzed** | 1,218 |
 | **Deliveries Processed** | 289,673 |
 | **Toss Winner Win Rate** | ~50.5% |
@@ -23,7 +24,7 @@ In the high-variance environment of T20 cricket, conventional wisdom often overv
 ## 🛠 Skills Demonstrated
 - **Exploratory Data Analysis (EDA)**
 - **Feature Engineering** (Phase modeling, outcome segmentation)
-- **Data Visualization** (Matplotlib/Seaborn customization)
+- **Data Visualization** (Matplotlib & Seaborn customization)
 - **Statistical Interpretation**
 - **Analytical Storytelling**
 - **Sports Analytics Frameworks**
@@ -32,8 +33,8 @@ In the high-variance environment of T20 cricket, conventional wisdom often overv
 
 ## 📂 Dataset & Workflow
 
-The analysis utilizes a high-fidelity, multi-season dataset featuring ball-by-ball granularity.
-- **Scope:** 1,218 total matches and 289,673 individual deliveries.
+This analysis utilizes a high-fidelity, multi-season dataset featuring ball-by-ball granularity.
+- **Scope:** 1,218 matches and 289,673 individual deliveries.
 - **Features Analyzed:** Ball-by-ball match states, toss decisions, run tallies, extras, wicket types, and venue data.
 
 **Pipeline:**
@@ -43,15 +44,17 @@ The analysis utilizes a high-fidelity, multi-season dataset featuring ball-by-ba
 
 ## 📉 Visual Analytics Showcase
 
-To optimize readability and reduce scrolling, the core analytical charts are grouped below. High-DPI versions are automatically exported to the `charts/` directory during execution.
+To optimize readability, the core analytical charts are grouped below. High-DPI versions are automatically exported to the `charts/` directory during execution.
 
 ### Tactical Outcomes
+
 | Toss Impact Analysis | Chasing vs Defending Trends |
 | :---: | :---: |
 | ![Toss Impact](charts/01_toss_impact.png) | ![Chase vs Defend](charts/05_chase_vs_defend.png) |
 | *The toss provides negligible predictive value.* | *Chasing offers a variable but detectable edge.* |
 
 ### Match Phase & Player Consistency
+
 | Match Phase Scoring | Top Performers (Bat & Bowl) |
 | :---: | :---: |
 | ![Phase Analysis](charts/02_phase_analysis.png) | <br>![Top Batters](charts/03_top_batters.png)<br><br>![Top Bowlers](charts/04_top_bowlers.png) |
@@ -60,6 +63,7 @@ To optimize readability and reduce scrolling, the core analytical charts are gro
 ---
 
 ## 🎯 Key Findings
+
 - **The Toss Offers Limited Predictive Value:** Toss winners convert their advantage into victories roughly 50.5% of the time, highlighting that on-field execution dictates outcomes far more than pre-match probabilities.
 - **Late-Innings Scoring Correlates with Success:** The largest scoring separation between winning and losing teams occurs during the Death Overs, pointing to late-innings acceleration as a key factor associated with victory.
 - **Chasing Provides a Detectable Edge:** Teams batting second hold a moderate overall advantage, though this edge fluctuates significantly across seasons due to evolving pitch conditions and tactical shifts.
@@ -70,6 +74,7 @@ The findings presented in this analysis represent *statistical associations* and
 ---
 
 ## 📁 Repository Structure
+
 ```text
 IPL_CRUNCH_26/
 ├── charts/               # Exported high-DPI visualizations (.png)
@@ -83,7 +88,7 @@ IPL_CRUNCH_26/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/mohanCIT/IPL-CRUNCH-26.git
    cd IPL_CRUNCH_26
    ```
 
